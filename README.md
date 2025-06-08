@@ -35,7 +35,7 @@ Each folder should include `.wav` files with speech recordings for phrases or wo
 ### 📌 Example Structure
 
 ```bash
-audio/
+speech_synthesis/
 ├── do_z_stacji/
 │ ├── do_stacji.wav
 │ └── pociag_do_stacji.wav
@@ -44,9 +44,10 @@ audio/
 │ ├── drugiego.wav
 │ └── drugim.wav
 │
-└── stacje/
-├── poznan_glowny.wav
-└── warszawa_wschodnia.wav
+├── stacje/
+│├── poznan_glowny.wav
+│└── warszawa_wschodnia.wav
+└─ main.py
 ```
 
 ---
